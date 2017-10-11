@@ -3,6 +3,7 @@
 [![Tests](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/color-kit)](https://central.sonatype.com/artifact/com.philiprehberger/color-kit)
 [![License](https://img.shields.io/github/license/philiprehberger/kt-color-kit)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Color parsing, conversion, and manipulation across RGB, HSL, and HEX.
 
