@@ -2,12 +2,9 @@
 
 [![CI](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/color-kit)](https://central.sonatype.com/artifact/com.philiprehberger/color-kit)
+[![License](https://img.shields.io/github/license/philiprehberger/kt-color-kit)](LICENSE)
 
 Color parsing, conversion, and manipulation across RGB, HSL, and HEX.
-
-## Requirements
-
-- Kotlin 1.9+ / Java 17+
 
 ## Installation
 
@@ -15,7 +12,7 @@ Color parsing, conversion, and manipulation across RGB, HSL, and HEX.
 
 ```kotlin
 dependencies {
-    implementation("com.philiprehberger:color-kit:0.1.0")
+    implementation("com.philiprehberger:color-kit:0.1.2")
 }
 ```
 
@@ -25,7 +22,7 @@ dependencies {
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>color-kit</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.2</version>
 </dependency>
 ```
 
