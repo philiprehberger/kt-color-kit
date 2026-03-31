@@ -1,9 +1,8 @@
 # color-kit
 
 [![Tests](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/kt-color-kit/actions/workflows/publish.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/color-kit)](https://central.sonatype.com/artifact/com.philiprehberger/color-kit)
-[![License](https://img.shields.io/github/license/philiprehberger/kt-color-kit)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Maven Central](https://img.shields.io/maven-central/v/com.philiprehberger/color-kit.svg)](https://central.sonatype.com/artifact/com.philiprehberger/color-kit)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/kt-color-kit)](https://github.com/philiprehberger/kt-color-kit/commits/main)
 
 Color parsing, conversion, and manipulation across RGB, HSL, and HEX.
 
@@ -62,6 +61,24 @@ red.isDark()      // true
 ./gradlew build
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/kt-color-kit)
+
+🐛 [Report issues](https://github.com/philiprehberger/kt-color-kit/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/kt-color-kit/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
