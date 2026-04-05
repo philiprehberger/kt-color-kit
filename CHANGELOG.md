@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 (2026-04-05)
+
+- Add `complementary()` method for 180° hue rotation color harmony
+- Add `triadic()` method returning a Pair of 120° and 240° hue rotation colors
+
 ## 0.1.4 (2026-03-31)
 
 - Standardize README to 3-badge format with emoji Support section

@@ -15,4 +15,6 @@ class ColorTest {
     @Test fun `isDark`() = assertTrue(Color.named("black").isDark())
     @Test fun `lighten`() { val c = Color.named("gray").lighten(0.2); assertTrue(c.luminance() > Color.named("gray").luminance()) }
     @Test fun `mix`() { val c = Color.named("red").mix(Color.named("blue"), 0.5); assertTrue(c.red in 100..150) }
+    @Test fun `complementary of red is cyan`() { val c = Color.rgb(255, 0, 0).complementary(); assertEquals(0, c.red); assertEquals(255, c.green); assertEquals(255, c.blue) }
+    @Test fun `triadic returns two colors`() { val (t1, t2) = Color.rgb(255, 0, 0).triadic(); assertTrue(t1.green > t1.red); assertTrue(t2.blue > t2.red) }
 }

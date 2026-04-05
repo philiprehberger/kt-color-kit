@@ -55,6 +55,18 @@ public class Color internal constructor(
     /** Set alpha. */
     public fun withAlpha(a: Double): Color = Color(red, green, blue, a.coerceIn(0.0, 1.0))
 
+    /** Return the complementary color (180° hue rotation). */
+    public fun complementary(): Color {
+        val (h, s, l) = toHsl()
+        return hsl((h + 180.0) % 360.0, s, l)
+    }
+
+    /** Return a pair of triadic colors (120° and 240° hue rotations). */
+    public fun triadic(): Pair<Color, Color> {
+        val (h, s, l) = toHsl()
+        return Pair(hsl((h + 120.0) % 360.0, s, l), hsl((h + 240.0) % 360.0, s, l))
+    }
+
     /** Relative luminance (0.0-1.0). */
     public fun luminance(): Double = (0.2126 * red / 255.0 + 0.7152 * green / 255.0 + 0.0722 * blue / 255.0)
     /** True if this is a light color. */

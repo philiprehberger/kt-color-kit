@@ -11,7 +11,7 @@ Color parsing, conversion, and manipulation across RGB, HSL, and HEX.
 ### Gradle (Kotlin DSL)
 
 ```kotlin
-implementation("com.philiprehberger:color-kit:0.1.3")
+implementation("com.philiprehberger:color-kit:0.2.0")
 ```
 
 ### Maven
@@ -20,7 +20,7 @@ implementation("com.philiprehberger:color-kit:0.1.3")
 <dependency>
     <groupId>com.philiprehberger</groupId>
     <artifactId>color-kit</artifactId>
-    <version>0.1.3</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -37,6 +37,9 @@ red.lighten(0.2)  // lighter red
 red.mix(blue)     // purple
 red.luminance()   // 0.2126
 red.isDark()      // true
+
+red.complementary()          // cyan (#00ffff)
+val (t1, t2) = red.triadic() // green-ish, blue-ish
 ```
 
 ## API
@@ -52,6 +55,8 @@ red.isDark()      // true
 | `Color.lighten(amount)` / `darken(amount)` | Adjust lightness |
 | `Color.invert()` / `grayscale()` | Color transformations |
 | `Color.mix(other, weight)` | Blend two colors |
+| `Color.complementary()` | Complementary color (180° hue rotation) |
+| `Color.triadic()` | Pair of triadic colors (120° and 240° rotations) |
 | `Color.luminance()` / `isLight()` / `isDark()` | Color analysis |
 
 ## Development
